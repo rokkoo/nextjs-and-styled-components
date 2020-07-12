@@ -5,7 +5,6 @@ import PageLayout from 'layout/PageLayout';
 const MyApp = ({ Component, pageProps }: AppProps) => {
    return (
       <PageLayout>
-         <p>global </p>
          <Component {...pageProps} />
       </PageLayout>
    );
